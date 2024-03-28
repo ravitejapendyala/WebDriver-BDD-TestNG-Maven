@@ -13,7 +13,6 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 
     BrowserUtils browserUtils;
-    //CourseHome courseHome;
 
     public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
