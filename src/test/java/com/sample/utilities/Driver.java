@@ -36,17 +36,11 @@ public class Driver {
         if (driverPool.get() == null) {
 
             synchronized (Driver.class) {
-        /*
-        We read our browser type from configuration.properties file using
-        .getProperty method we creating in ConfigurationReader class.
-         */
+
                 String browserType = configfileReader.getBrowser();
                 String headless = configfileReader.getPropertyValue(ConfigProperties.headless.toString());
                 String runMode = configfileReader.getPropertyValue(ConfigProperties.runMode.toString());
-        /*
-        Depending on the browser type our switch statement will determine
-        to open specific type of browser/driver
-         */
+
                 if(runMode.equalsIgnoreCase("local")){
                     switch (browserType) {
                         case "chrome":
