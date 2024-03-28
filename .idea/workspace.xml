@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da8c15b0-f572-4ae0-9cb1-bcead3e3818b" name="Changes" comment="Select Departure date details">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sample/utilities/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sample/utilities/Waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/demo2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/demo2.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/sample/runners/CukesRunner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/sample/utilities/ConfigFileReader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/sample/utilities/Waits.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/features/demo.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/features/demo2.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/testng.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JEBytPaRXAG5IlLFUXl3yvMIZH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1021285/OneDrive - Blue Yonder/Personal/JavaProjects/Java_BDD_New&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1021285\OneDrive - Blue Yonder\Personal\JavaProjects\Java_BDD_New" />
+      <recent name="C:\Users\1021285\OneDrive - Blue Yonder\Personal\JavaProjects\Java_BDD_New\src\test\resources" />
+      <recent name="C:\Users\1021285\OneDrive - Blue Yonder\Personal\JavaProjects\GuruPayment_BDD_New\src\test\resources\features" />
+      <recent name="C:\Users\1021285\OneDrive - Blue Yonder\Personal\JavaProjects\GuruPayment_BDD_New\src\main\java" />
+      <recent name="C:\Users\1021285\OneDrive - Blue Yonder\Personal\JavaProjects\GuruPayment_BDD_New\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1021285\OneDrive - Blue Yonder\Personal\JavaProjects\GuruPayment_BDD_New\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sample.runners" />
+      <recent name="pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Scenario: Demo Automation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demo2.feature" />
+      <option name="GLUE" value="com.sample.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebDriver-BDD-TestNG-Maven" />
+      <option name="NAME_FILTER" value="^Demo Automation$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Demo Automation$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Demo Automation" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Orange Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demo2.feature" />
+      <option name="GLUE" value="com.sample.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebDriver-BDD-TestNG-Maven" />
+      <option name="NAME_FILTER" value="^Orange Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Orange Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Orange Test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify sorting in goibibo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demo2.feature" />
+      <option name="GLUE" value="com.sample.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="WebDriver-BDD-TestNG-Maven" />
+      <option name="NAME_FILTER" value="^Verify sorting in goibibo$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify sorting in goibibo$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify sorting in goibibo" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebDriver-BDD-TestNG-Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailedRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WebDriver-BDD-TestNG-Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sample.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sample.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.sample.runners.FailedRun" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify sorting in goibibo" />
+        <item itemvalue="Cucumber Java.Scenario: Demo Automation" />
+        <item itemvalue="Cucumber Java.Scenario: Orange Test" />
+        <item itemvalue="JUnit.FailedRun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da8c15b0-f572-4ae0-9cb1-bcead3e3818b" name="Changes" comment="" />
+      <created>1671633621773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671633621773</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding BDD cucumber framework sample">
+      <created>1687621151890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687621151890</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding WebDriver manager to download suitable drivers by default. &#10;Adding new test for Orange HCM&#10;Used Date picker selection">
+      <created>1695318926933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695318926933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding TakeScreenshot method OnDemand &amp; updated test with logout action">
+      <created>1695366300341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695366300341</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding new web utilities like find elements &amp; highlight elements">
+      <created>1695830266803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695830266803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding new web utilities for closeMultipleTabsExceptCurrentTab">
+      <created>1695834738515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695834738515</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding new complex json objects as test data format &amp; Fix issues in Orange test">
+      <created>1707830231178</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707830231178</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Remove unwanted tests from feature files">
+      <created>1708435167863</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708435167863</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updating to latest selenium version 4.17">
+      <created>1708435621706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708435621706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updating POM.xml to exclude lambok configuration at test run time">
+      <created>1708439040290</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708439040290</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updating maven-compiler-plugin to latest in POM.xml">
+      <created>1708494626908</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708494626908</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add lombok dependency">
+      <created>1708497335176</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708497335176</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add code to run in headless mode for chrome">
+      <created>1708501466314</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708501466314</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding code to run tests in headless mode">
+      <created>1708615764413</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708615764413</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adding code to re run failure tests">
+      <created>1708797741357</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708797741357</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding runner file to execute failure tests">
+      <created>1708797903808</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708797903808</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update testng.xml file to execute &amp; regression &amp; failure tests sequentially">
+      <created>1708798075949</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708798075949</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Update driver initilization to configure Docker">
+      <created>1709034632272</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709034632272</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update code to configure execution using docker">
+      <created>1709141790409</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709141790409</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Adding docker-compose file for containerization of tests">
+      <created>1710429420015</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710429420015</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Adding goibibo test to validate sort functionality while booking flight">
+      <created>1711440717222</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711440717222</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Update enterTextCharacterByCharacterUsingJavaScript to fix auto suggestion option">
+      <created>1711440831099</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711440831099</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update from &amp; to fields input data">
+      <created>1711440967910</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711440967910</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Select Departure date details">
+      <created>1711449152182</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711449152182</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding BDD cucumber framework sample" />
+    <MESSAGE value="Adding WebDriver manager to download suitable drivers by default. &#10;Adding new test for Orange HCM&#10;Used Date picker selection" />
+    <MESSAGE value="Adding TakeScreenshot method OnDemand &amp; updated test with logout action" />
+    <MESSAGE value="Adding new web utilities like find elements &amp; highlight elements" />
+    <MESSAGE value="Adding new web utilities for closeMultipleTabsExceptCurrentTab" />
+    <MESSAGE value="Adding new complex json objects as test data format &amp; Fix issues in Orange test" />
+    <MESSAGE value="Remove unwanted tests from feature files" />
+    <MESSAGE value="Updating to latest selenium version 4.17" />
+    <MESSAGE value="Updating POM.xml to exclude lambok configuration at test run time" />
+    <MESSAGE value="Updating maven-compiler-plugin to latest in POM.xml" />
+    <MESSAGE value="Add lombok dependency" />
+    <MESSAGE value="Add code to run in headless mode for chrome" />
+    <MESSAGE value="Adding code to run tests in headless mode" />
+    <MESSAGE value="Adding code to re run failure tests" />
+    <MESSAGE value="Adding runner file to execute failure tests" />
+    <MESSAGE value="Update testng.xml file to execute &amp; regression &amp; failure tests sequentially" />
+    <MESSAGE value="Update driver initilization to configure Docker" />
+    <MESSAGE value="Update code to configure execution using docker" />
+    <MESSAGE value="Adding docker-compose file for containerization of tests" />
+    <MESSAGE value="Adding goibibo test to validate sort functionality while booking flight" />
+    <MESSAGE value="Update enterTextCharacterByCharacterUsingJavaScript to fix auto suggestion option" />
+    <MESSAGE value="Update from &amp; to fields input data" />
+    <MESSAGE value="Select Departure date details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Select Departure date details" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/utilities/Driver.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>312</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>309</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>305</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/step_definitions/Steps.java</url>
+          <line>300</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/utilities/BrowserUtils.java</url>
+          <line>649</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sample/utilities/Waits.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="pth" />
+        <watch expression="UpdatedDate" />
+        <watch expression="dob!=&quot;&quot;" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_BDD_New$Scenario__Test_the_demo2__1_.ic" NAME="Scenario: Test the demo2 (1) Coverage Results" MODIFIED="1695285918822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>
