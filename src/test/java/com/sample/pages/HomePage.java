@@ -17,21 +17,10 @@ public class HomePage {
     public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
         browserUtils = new BrowserUtils();
-        //courseHome = new CourseHome();
     }
 
-    //Elements:
-    @FindBy(id = "emailAddress")
-    protected static WebElement emailAddress_txt;
 
-    @FindBy(xpath = "//input[@title='Search']")
-    protected static WebElement search_btn;
 
-    @FindBy(xpath = "//a[contains(@title,'Click to view')]")
-    protected static WebElement studentListId_row;
-
-/*    @FindBy(xpath = "//div[@data-id='auth-flow-section']/span")
-    public static WebElement loginClose_btn;*/
 
     public By loginClose_btn = By.xpath("//div[@data-id='auth-flow-section']/span");
     public By destination_btn = By.xpath("(//p[text()='Enter city or airport'])[1]");
@@ -41,38 +30,13 @@ public class HomePage {
     public By departure = By.xpath("//span[text()='Departure']/following-sibling::p");
     public By travel_details = By.xpath("//span[contains(text(),'Travellers')]/following-sibling::p");
     public By departure_30day = By.xpath("(//div[@class='DayPicker-Day'])[30]");
-    public By traveller_student = By.xpath("//label[@for='ST']/div");
     public By traveller_done= By.xpath("//a[text()='Done']");
     public By searchFlight_btn = By.xpath("//span[text()='SEARCH FLIGHTS']");
     public By loader_btn = By.xpath("//div[@class='loader']");
 
-    String advanced_btn = "//button[@id='details-button']";
-
-    public void SearchByEmail(String email) {
 
 
-        browserUtils.type(emailAddress_txt, email);
-        browserUtils.clickByElement(search_btn);
-    }
 
-    public void SelectRecordFromResult() {
-        browserUtils.clickByElement(studentListId_row);
-    }
-
-    public void SelectCourseFromEnrollment(String courseName) {
-
-        String course_xpath = "//a[text()='" + courseName + "']";
-        browserUtils.clickByElement(Driver.getDriver().findElement(By.xpath(course_xpath)));
-        browserUtils.SwitchToNewTab();
-        Waits.waitFixedTime(3);
-        Waits.waitForBlocker();
-        //browserUtils.clickByElement(courseHome.close_btn);
-    }
-
-
-    public boolean isLicenseDisplayed(String license) {
-        return browserUtils.isElementVisible(Driver.getDriver().findElement(By.xpath(String.format("//td[text()='%s']", license))));
-    }
 
     public void CloseLoginPopup(){
 
@@ -85,13 +49,11 @@ public class HomePage {
         Driver.getDriver().findElement(destination_btn).click();
         Waits.waitFixedTime(1);
         BrowserUtils.enterTextCharacterByCharacterUsingJavaScript(Driver.getDriver(),From_txt,from);
-
-        //Driver.getDriver().findElement(From_txt).sendKeys("HYD");
         Waits.waitFixedTime(2);
         BrowserUtils.findElement(Driver.getDriver(),suggestion,5,"click");
     }
     public void EnterToCity(String to){
-        //Driver.getDriver().findElement(destination_btn).click();
+
         Waits.waitFixedTime(1);
         BrowserUtils.enterTextCharacterByCharacterUsingJavaScript(Driver.getDriver(),To_txt,to);
         //Driver.getDriver().findElement(To_txt).sendKeys("MAA");
